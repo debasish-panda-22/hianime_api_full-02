@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "outDir": "dist",
+    "rootDir": ".",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "noEmitOnError": false,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "jsx": "preserve"
+  },
+  "include": [
+    "server.ts",
+    "src/lib/**/*",
+    "src/server/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "src/app",
+    "src/pages",
+    "src/components"
+  ]
+}

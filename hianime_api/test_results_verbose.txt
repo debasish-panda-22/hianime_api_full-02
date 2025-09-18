@@ -1,0 +1,1051 @@
+
+================================================================================
+Search (naruto) raw
+================================================================================
+{"success":true,"data":{"pageInfo":{"totalPages":1,"currentPage":1,"hasNextPage":false},"response":[{"title":"Road of Naruto","alternativeTitle":"Road of Naruto","id":"road-of-naruto-18220?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg","type":"ONA","duration":"9m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Naruto: Find the Crimson Four-leaf Clover!","alternativeTitle":"Naruto: Akaki Yotsuba no Clover wo Sagase","id":"naruto-find-the-crimson-four-leaf-clover-5694?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/da3a3d57e29aa0dba87cd6e1596b78e9.jpg","type":"Special","duration":"17m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Boruto: Naruto Next Generations","alternativeTitle":"Boruto: Naruto Next Generations","id":"boruto-naruto-next-generations-8143?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/32c83e2ad4a43229996356840db3982c.jpg","type":"TV","duration":"23m","episodes":{"sub":293,"dub":293,"eps":293}},{"title":"Naruto the Movie 3: Guardians of the Crescent Moon Kingdom","alternativeTitle":"Naruto Movie 3: Dai Koufun! Mikazuki Jima no Animaru Panikku Dattebayo!","id":"naruto-the-movie-3-guardians-of-the-crescent-moon-kingdom-4005?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/73d003618cd260df44e93a5baf9acb56.jpg","type":"Movie","duration":"94m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto the Movie 2: Legend of the Stone of Gelel","alternativeTitle":"Naruto Movie 2: Dai Gekitotsu! Maboroshi no Chiteiiseki Dattebayo!","id":"naruto-the-movie-2-legend-of-the-stone-of-gelel-4004?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/111f06edfffba5f46f5cac05db2a6bce.jpg","type":"Movie","duration":"97m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto: The Cross Roads","alternativeTitle":"Naruto: The Cross Roads","id":"naruto-the-cross-roads-4291?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/99d7c753d9535c0d91858e4dd2a8d939.jpg","type":"Special","duration":"27m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Naruto OVA3: Hidden Leaf Village Grand Sports Festival","alternativeTitle":"Naruto: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo! - Konoha no Sato no Dai Undoukai","id":"naruto-ova3-hidden-leaf-village-grand-sports-festival-4136?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/b4bb0d2caaa9591fdb3c442738d7f87a.jpg","type":"Special","duration":"11m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto Narutimate Hero 3: Tsuini Gekitotsu! Jounin vs. Genin!! Musabetsu Dairansen Taikai Kaisai!!","alternativeTitle":"Naruto Narutimate Hero 3: Tsuini Gekitotsu! Jounin vs. Genin!! Musabetsu Dairansen Taikai Kaisai!!","id":"naruto-narutimate-hero-3-tsuini-gekitotsu-jounin-vs-genin-musabetsu-dairansen-taikai-kaisai-4485?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/939f107dc40ca24056b90c0b215bd475.jpg","type":"OVA","duration":"26m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Naruto OVA2: The Lost Story - Mission: Protect the Waterfall Village","alternativeTitle":"Naruto: Takigakure no Shitou - Ore ga Eiyuu Dattebayo!","id":"naruto-ova2-the-lost-story-mission-protect-the-waterfall-village-4538?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/ed2ca489d8c438c880056ea507efc93c.jpg","type":"Special","duration":"40m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto: Shippuden the Movie 2 -Bonds-","alternativeTitle":"Naruto: Shippuuden Movie 2 - Kizuna","id":"naruto-shippuden-the-movie-2-bonds-2346?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/74a112674ab92212933e41cb532689a5.jpg","type":"Movie","duration":"92m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto: Shippuden the Movie","alternativeTitle":"Naruto: Shippuuden Movie 1","id":"naruto-shippuden-the-movie-2306?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/071ca93201eccc34a9e088013bc27807.jpg","type":"Movie","duration":"94m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto Shippuuden Movie 3: Inheritors of Will of Fire","alternativeTitle":"Naruto: Shippuuden Movie 3 - Hi no Ishi wo Tsugu Mono","id":"naruto-shippuuden-movie-3-inheritors-of-will-of-fire-2044?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/1b9aad793b15265876f479c53ca7bfe1.jpg","type":"Movie","duration":"95m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto: Shippuden","alternativeTitle":"Naruto: Shippuuden","id":"naruto-shippuden-355?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/9cbcf87f54194742e7686119089478f8.jpg","type":"TV","duration":"23m","episodes":{"sub":500,"dub":500,"eps":500}},{"title":"Naruto","alternativeTitle":"Naruto","id":"naruto-677?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/5db400c33f7494bc8ae96f9e634958d0.jpg","type":"TV","duration":"23m","episodes":{"sub":220,"dub":220,"eps":220}},{"title":"The Last: Naruto the Movie","alternativeTitle":"The Last: Naruto the Movie","id":"the-last-naruto-the-movie-882?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/8d42031c8f566e744d84de02d42466bc.jpg","type":"Movie","duration":"112m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto: Shippuuden Movie 6: Road to Ninja","alternativeTitle":"Naruto: Shippuuden Movie 6 - Road to Ninja","id":"naruto-shippuuden-movie-6-road-to-ninja-1066?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/dde4a8a8ddd19648711845448d02d6d8.jpg","type":"Movie","duration":"109m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"NARUTO Spin-Off: Rock Lee & His Ninja Pals","alternativeTitle":"Naruto SD: Rock Lee no Seishun Full-Power Ninden","id":"naruto-spin-off-rock-lee-his-ninja-pals-2992?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/37f8b16b0f693e433207117abe5daf44.jpg","type":"TV","duration":"24m","episodes":{"sub":51,"dub":51,"eps":51}},{"title":"Naruto OVA7: Chunin Exam on Fire! and Naruto vs. Konohamaru!","alternativeTitle":"Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!","id":"naruto-ova7-chunin-exam-on-fire-and-naruto-vs-konohamaru-2928?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/44246cdf24c85468599ff2b9496c27cb.jpg","type":"Movie","duration":"14m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto Movie 1: Ninja Clash in the Land of Snow","alternativeTitle":"Naruto Movie 1: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo!","id":"naruto-the-movie-ninja-clash-in-the-land-of-snow-3162?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/a1ab85f1eb75ec0a986e4c9d5fe04b49.jpg","type":"Movie","duration":"82m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto OVA5: Naruto, The Genie, and The Three Wishes!!","alternativeTitle":"Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!!","id":"naruto-ova5-naruto-the-genie-and-the-three-wishes-3657?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/57935a347fb4328e0132c76afdd85822.jpg","type":"OVA","duration":"14m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Boruto: Naruto the Movie","alternativeTitle":"Boruto: Naruto the Movie","id":"boruto-naruto-the-movie-1391?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/f0ad5b3ee01703cc817638973b535aa2.jpg","type":"Movie","duration":"95m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto x UT","alternativeTitle":"Naruto x UT","id":"naruto-x-ut-1840?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/be66602efedb73c4688e302303b0a422.jpg","type":"OVA","duration":"6m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Naruto: Shippuuden Movie 4 - The Lost Tower","alternativeTitle":"Naruto: Shippuuden Movie 4 - The Lost Tower","id":"naruto-shippuuden-movie-4-the-lost-tower-1821?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/68c5ae4e5b496eb0474920659a9a85e2.jpg","type":"Movie","duration":"85m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Boruto: Naruto the Movie - The Day Naruto Became the Hokage","alternativeTitle":"Boruto: Naruto the Movie - Naruto ga Hokage ni Natta Hi","id":"boruto-naruto-the-movie-the-day-naruto-became-the-hokage-1805?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/b19c06fae70eab67b1f390ed3cd905d8.jpg","type":"Special","duration":"10m","episodes":{"sub":1,"dub":null,"eps":1}},{"title":"Naruto: Shippuuden Movie 5 - Blood Prison","alternativeTitle":"Naruto: Shippuuden Movie 5 - Blood Prison","id":"naruto-shippuuden-movie-5-blood-prison-1642?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/23a436a4ae640fa191a587b5e417bf7d.jpg","type":"Movie","duration":"102m","episodes":{"sub":1,"dub":1,"eps":1}},{"title":"Naruto OVA9: Sunny Side Battle","alternativeTitle":"Naruto: Shippuuden - Sunny Side Battle","id":"naruto-ova9-sunny-side-battle-1916?ref=search","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/94c836b7aff106f515b53f8eb440ccdf.jpg","type":"Special","duration":"11m","episodes":{"sub":1,"dub":null,"eps":1}}]}}
+
+
+================================================================================
+Search (naruto) parsed
+================================================================================
+{
+  "success": true,
+  "data": {
+    "pageInfo": {
+      "totalPages": 1,
+      "currentPage": 1,
+      "hasNextPage": false
+    },
+    "response": [
+      {
+        "title": "Road of Naruto",
+        "alternativeTitle": "Road of Naruto",
+        "id": "road-of-naruto-18220?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg",
+        "type": "ONA",
+        "duration": "9m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Find the Crimson Four-leaf Clover!",
+        "alternativeTitle": "Naruto: Akaki Yotsuba no Clover wo Sagase",
+        "id": "naruto-find-the-crimson-four-leaf-clover-5694?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/da3a3d57e29aa0dba87cd6e1596b78e9.jpg",
+        "type": "Special",
+        "duration": "17m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Boruto: Naruto Next Generations",
+        "alternativeTitle": "Boruto: Naruto Next Generations",
+        "id": "boruto-naruto-next-generations-8143?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/32c83e2ad4a43229996356840db3982c.jpg",
+        "type": "TV",
+        "duration": "23m",
+        "episodes": {
+          "sub": 293,
+          "dub": 293,
+          "eps": 293
+        }
+      },
+      {
+        "title": "Naruto the Movie 3: Guardians of the Crescent Moon Kingdom",
+        "alternativeTitle": "Naruto Movie 3: Dai Koufun! Mikazuki Jima no Animaru Panikku Dattebayo!",
+        "id": "naruto-the-movie-3-guardians-of-the-crescent-moon-kingdom-4005?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/73d003618cd260df44e93a5baf9acb56.jpg",
+        "type": "Movie",
+        "duration": "94m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto the Movie 2: Legend of the Stone of Gelel",
+        "alternativeTitle": "Naruto Movie 2: Dai Gekitotsu! Maboroshi no Chiteiiseki Dattebayo!",
+        "id": "naruto-the-movie-2-legend-of-the-stone-of-gelel-4004?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/111f06edfffba5f46f5cac05db2a6bce.jpg",
+        "type": "Movie",
+        "duration": "97m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: The Cross Roads",
+        "alternativeTitle": "Naruto: The Cross Roads",
+        "id": "naruto-the-cross-roads-4291?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/99d7c753d9535c0d91858e4dd2a8d939.jpg",
+        "type": "Special",
+        "duration": "27m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto OVA3: Hidden Leaf Village Grand Sports Festival",
+        "alternativeTitle": "Naruto: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo! - Konoha no Sato no Dai Undoukai",
+        "id": "naruto-ova3-hidden-leaf-village-grand-sports-festival-4136?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/b4bb0d2caaa9591fdb3c442738d7f87a.jpg",
+        "type": "Special",
+        "duration": "11m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto Narutimate Hero 3: Tsuini Gekitotsu! Jounin vs. Genin!! Musabetsu Dairansen Taikai Kaisai!!",
+        "alternativeTitle": "Naruto Narutimate Hero 3: Tsuini Gekitotsu! Jounin vs. Genin!! Musabetsu Dairansen Taikai Kaisai!!",
+        "id": "naruto-narutimate-hero-3-tsuini-gekitotsu-jounin-vs-genin-musabetsu-dairansen-taikai-kaisai-4485?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/939f107dc40ca24056b90c0b215bd475.jpg",
+        "type": "OVA",
+        "duration": "26m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto OVA2: The Lost Story - Mission: Protect the Waterfall Village",
+        "alternativeTitle": "Naruto: Takigakure no Shitou - Ore ga Eiyuu Dattebayo!",
+        "id": "naruto-ova2-the-lost-story-mission-protect-the-waterfall-village-4538?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/ed2ca489d8c438c880056ea507efc93c.jpg",
+        "type": "Special",
+        "duration": "40m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuden the Movie 2 -Bonds-",
+        "alternativeTitle": "Naruto: Shippuuden Movie 2 - Kizuna",
+        "id": "naruto-shippuden-the-movie-2-bonds-2346?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/74a112674ab92212933e41cb532689a5.jpg",
+        "type": "Movie",
+        "duration": "92m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuden the Movie",
+        "alternativeTitle": "Naruto: Shippuuden Movie 1",
+        "id": "naruto-shippuden-the-movie-2306?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/071ca93201eccc34a9e088013bc27807.jpg",
+        "type": "Movie",
+        "duration": "94m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto Shippuuden Movie 3: Inheritors of Will of Fire",
+        "alternativeTitle": "Naruto: Shippuuden Movie 3 - Hi no Ishi wo Tsugu Mono",
+        "id": "naruto-shippuuden-movie-3-inheritors-of-will-of-fire-2044?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/1b9aad793b15265876f479c53ca7bfe1.jpg",
+        "type": "Movie",
+        "duration": "95m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuden",
+        "alternativeTitle": "Naruto: Shippuuden",
+        "id": "naruto-shippuden-355?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/9cbcf87f54194742e7686119089478f8.jpg",
+        "type": "TV",
+        "duration": "23m",
+        "episodes": {
+          "sub": 500,
+          "dub": 500,
+          "eps": 500
+        }
+      },
+      {
+        "title": "Naruto",
+        "alternativeTitle": "Naruto",
+        "id": "naruto-677?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/5db400c33f7494bc8ae96f9e634958d0.jpg",
+        "type": "TV",
+        "duration": "23m",
+        "episodes": {
+          "sub": 220,
+          "dub": 220,
+          "eps": 220
+        }
+      },
+      {
+        "title": "The Last: Naruto the Movie",
+        "alternativeTitle": "The Last: Naruto the Movie",
+        "id": "the-last-naruto-the-movie-882?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/8d42031c8f566e744d84de02d42466bc.jpg",
+        "type": "Movie",
+        "duration": "112m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuuden Movie 6: Road to Ninja",
+        "alternativeTitle": "Naruto: Shippuuden Movie 6 - Road to Ninja",
+        "id": "naruto-shippuuden-movie-6-road-to-ninja-1066?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/dde4a8a8ddd19648711845448d02d6d8.jpg",
+        "type": "Movie",
+        "duration": "109m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "NARUTO Spin-Off: Rock Lee & His Ninja Pals",
+        "alternativeTitle": "Naruto SD: Rock Lee no Seishun Full-Power Ninden",
+        "id": "naruto-spin-off-rock-lee-his-ninja-pals-2992?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/37f8b16b0f693e433207117abe5daf44.jpg",
+        "type": "TV",
+        "duration": "24m",
+        "episodes": {
+          "sub": 51,
+          "dub": 51,
+          "eps": 51
+        }
+      },
+      {
+        "title": "Naruto OVA7: Chunin Exam on Fire! and Naruto vs. Konohamaru!",
+        "alternativeTitle": "Naruto: Honoo no Chuunin Shiken! Naruto vs. Konohamaru!!",
+        "id": "naruto-ova7-chunin-exam-on-fire-and-naruto-vs-konohamaru-2928?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/44246cdf24c85468599ff2b9496c27cb.jpg",
+        "type": "Movie",
+        "duration": "14m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto Movie 1: Ninja Clash in the Land of Snow",
+        "alternativeTitle": "Naruto Movie 1: Dai Katsugeki!! Yuki Hime Shinobu Houjou Dattebayo!",
+        "id": "naruto-the-movie-ninja-clash-in-the-land-of-snow-3162?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/a1ab85f1eb75ec0a986e4c9d5fe04b49.jpg",
+        "type": "Movie",
+        "duration": "82m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto OVA5: Naruto, The Genie, and The Three Wishes!!",
+        "alternativeTitle": "Naruto Soyokazeden Movie: Naruto to Mashin to Mitsu no Onegai Dattebayo!!",
+        "id": "naruto-ova5-naruto-the-genie-and-the-three-wishes-3657?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/57935a347fb4328e0132c76afdd85822.jpg",
+        "type": "OVA",
+        "duration": "14m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Boruto: Naruto the Movie",
+        "alternativeTitle": "Boruto: Naruto the Movie",
+        "id": "boruto-naruto-the-movie-1391?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/f0ad5b3ee01703cc817638973b535aa2.jpg",
+        "type": "Movie",
+        "duration": "95m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto x UT",
+        "alternativeTitle": "Naruto x UT",
+        "id": "naruto-x-ut-1840?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/be66602efedb73c4688e302303b0a422.jpg",
+        "type": "OVA",
+        "duration": "6m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuuden Movie 4 - The Lost Tower",
+        "alternativeTitle": "Naruto: Shippuuden Movie 4 - The Lost Tower",
+        "id": "naruto-shippuuden-movie-4-the-lost-tower-1821?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/68c5ae4e5b496eb0474920659a9a85e2.jpg",
+        "type": "Movie",
+        "duration": "85m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Boruto: Naruto the Movie - The Day Naruto Became the Hokage",
+        "alternativeTitle": "Boruto: Naruto the Movie - Naruto ga Hokage ni Natta Hi",
+        "id": "boruto-naruto-the-movie-the-day-naruto-became-the-hokage-1805?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/b19c06fae70eab67b1f390ed3cd905d8.jpg",
+        "type": "Special",
+        "duration": "10m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Shippuuden Movie 5 - Blood Prison",
+        "alternativeTitle": "Naruto: Shippuuden Movie 5 - Blood Prison",
+        "id": "naruto-shippuuden-movie-5-blood-prison-1642?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/23a436a4ae640fa191a587b5e417bf7d.jpg",
+        "type": "Movie",
+        "duration": "102m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto OVA9: Sunny Side Battle",
+        "alternativeTitle": "Naruto: Shippuuden - Sunny Side Battle",
+        "id": "naruto-ova9-sunny-side-battle-1916?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/94c836b7aff106f515b53f8eb440ccdf.jpg",
+        "type": "Special",
+        "duration": "11m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      }
+    ]
+  }
+}
+
+
+================================================================================
+Extracted anime_id (attempt)
+================================================================================
+road-of-naruto-18220?ref=search
+
+
+================================================================================
+Anime Details /anime/road-of-naruto-18220?ref=search/ raw
+================================================================================
+{"success":true,"data":{"title":null,"alternativeTitle":null,"japanese":null,"id":"18220","poster":"https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg","rating":null,"type":"PG-13HD1ONA9m","episodes":{"sub":null,"dub":null,"eps":null},"synopsis":"In celebration of 20 years of , Studio Pierrot posted an anniversary PV on their YouTube channel. The PV is a compilation of newly reworked scenes from containing new animation.","synonyms":[],"aired":{"from":null,"to":null},"premiered":null,"duration":null,"status":null,"MAL_score":null,"genres":[],"studios":null,"producers":[],"moreSeasons":[],"related":[],"mostPopular":[],"recommended":[]}}
+
+
+================================================================================
+Anime Details parsed
+================================================================================
+{
+  "success": true,
+  "data": {
+    "title": null,
+    "alternativeTitle": null,
+    "japanese": null,
+    "id": "18220",
+    "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg",
+    "rating": null,
+    "type": "PG-13HD1ONA9m",
+    "episodes": {
+      "sub": null,
+      "dub": null,
+      "eps": null
+    },
+    "synopsis": "In celebration of 20 years of , Studio Pierrot posted an anniversary PV on their YouTube channel. The PV is a compilation of newly reworked scenes from containing new animation.",
+    "synonyms": [],
+    "aired": {
+      "from": null,
+      "to": null
+    },
+    "premiered": null,
+    "duration": null,
+    "status": null,
+    "MAL_score": null,
+    "genres": [],
+    "studios": null,
+    "producers": [],
+    "moreSeasons": [],
+    "related": [],
+    "mostPopular": [],
+    "recommended": []
+  }
+}
+
+
+================================================================================
+Episodes /episodes/road-of-naruto-18220?ref=search/ raw
+================================================================================
+{"success":true,"data":[]}
+
+
+================================================================================
+Episodes parsed
+================================================================================
+{
+  "success": true,
+  "data": []
+}
+
+
+================================================================================
+NOTE
+================================================================================
+Episode data is empty from API; attempting to fetch provider pages (best-effort).
+
+
+================================================================================
+Provider base found
+================================================================================
+https://megacloud.club
+
+
+================================================================================
+Provider fetch: https://megacloud.club/anime/road-of-naruto-18220?ref=search
+================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Megacloud.co</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" />
+</head>
+<body>
+<!--Begin: Header-->
+<header id="mega_header">
+    <div class="container">
+        <div class="header-container">
+            <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+            <a href="/" id="logo" title="Megacloud.co"><img src="/images/logo.png" title="Megacloud.co"
+                                                            alt="Megacloud.co"></a>
+            <div id="mega_menu">
+                <ul class="nav">
+                    <li class="nav-item active"><a href="/" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="/about" title="About">About</a></li>
+                    <li class="nav-item"><a href="/affiliate" title="Earn money">Earn money</a></li>
+                    <li class="nav-item"><a href="/api" title="API">API</a></li>
+                    <li class="nav-item"><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mega_user">
+                <a id="toggle-login" data-toggle="modal" data-target="#megalogin"
+                   class="btn btn-sm btn-header btn-login xs-hide">Login</a>
+                <a href="/register" class="btn btn-sm btn-header btn-header-user xs-hide"><i
+                            class="far fa-user mr-2"></i>Create an Account</a>
+                <a href="/login" class="btn btn-sm btn-header btn-header-user xs-show"><i class="far fa-user mr-2"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End: Header-->
+<!--Begin: Main content-->
+<div id="mega_main" class="page-404 pb-5">
+    <div class="container">
+        <div class="content-404 text-center">
+            <div class="img-404"><img src="/images/404-error.svg" title="404" alt="404"></div>
+            <h1 class="h-title">404</h1>
+            <p class="description mb-4">Unfortunately, this page does not exist. Please check your URL or return to the Home Page.</p>
+            <p><a href="/" class="btn btn-lg btn-radius btn-primary" title="">Back to Homepage</a></p>
+        </div>
+    </div>
+</div>
+<!--End: Main content-->
+<!--Begin: Footer-->
+<footer>
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Megacloud</li>
+                    <li><a href="/about" title="">About us</a></li>
+                    <li><a href="/faq" title="">FAQ</a></li>
+                    <li><a href="/contact" title="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Policy</li>
+                    <li><a href="/terms" title="">Terms and Conditions</a></li>
+                    <li><a href="/copyright" title="">Copyright Policy</a></li>
+                    <li><a href="/dmca" title="">Report Abuse</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Services</li>
+                    <li><a href="#" title="">Earn money</a></li>
+                    <li><a href="/api" title="">API</a></li>
+                    <li><a href="#" title="">Speedtest</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Connect</li>
+                    <li><a href="#" title="">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-right">
+                <a href="/" class="footer-logo">
+                    <img src="/images/logo.png" title="Megacloud.co" alt="Megacloud.co">
+                </a>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <span class="copyright-text">Megacloud © 2023 / All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End: Footer-->
+<div class="modal fade modal-login" id="megalogin" tabindex="-1" role="dialog" aria-labelledby="megalogin" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-close" data-dismiss="modal" ari-label="megalogin"><span><i class="fas fa-times"></i></span></div>
+            <div class="modal-form">
+                <h3 class="vc-title">Sign In</h3>
+                <div class="mg-avatar"><img src="/images/avatar.png"></div>
+                <form class="sp-form mg-form ajax-form" method="POST" action="/ajax/auth/login">
+                    <div class="alert alert-danger error-msg" style="display: none"></div>
+                    <div class="form-group">
+                        <label for="name-input"><i class="far fa-user mr-2 vcf-icon"></i>Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email Address" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-input"><i class="fas fa-key mr-2 vcf-icon"></i>Password</label>
+                        <input type="password" class="form-control" placeholder="Your password" name="password" required>
+                    </div>
+                    <div class="form-check form-check-inline mt-3" style="line-height: 2em;">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="checkbox25" value="1" name="remember">
+                            <label class="custom-control-label" for="checkbox25">Remember me</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-button">
+                        <button type="submit" class="btn btn-block btn-lg btn-shadow btn-primary mt-3">Sign In <i class="fas fa-arrow-circle-right ml-2 float-right mt-1"></i></button>
+                    </div>
+                </form>
+                <div class="mg-bottom">
+                    <div class="vcb-block vcb-forgot float-left">
+                        <a href="/forgot-password" title=""><i class="fas fa-question-circle mr-2"></i>Forgot password?</a>
+                    </div>
+                    <div class="vcb-block vcb-forgot float-right">
+                        <a href="/register" title=""><i class="fas fa-user-plus mr-2"></i>Create an Account</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/js/app.min.js"></script>
+</body>
+</html>
+
+
+================================================================================
+Provider fetch: https://megacloud.club/category/road-of-naruto-18220?ref=search
+================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Megacloud.co</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" />
+</head>
+<body>
+<!--Begin: Header-->
+<header id="mega_header">
+    <div class="container">
+        <div class="header-container">
+            <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+            <a href="/" id="logo" title="Megacloud.co"><img src="/images/logo.png" title="Megacloud.co"
+                                                            alt="Megacloud.co"></a>
+            <div id="mega_menu">
+                <ul class="nav">
+                    <li class="nav-item active"><a href="/" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="/about" title="About">About</a></li>
+                    <li class="nav-item"><a href="/affiliate" title="Earn money">Earn money</a></li>
+                    <li class="nav-item"><a href="/api" title="API">API</a></li>
+                    <li class="nav-item"><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mega_user">
+                <a id="toggle-login" data-toggle="modal" data-target="#megalogin"
+                   class="btn btn-sm btn-header btn-login xs-hide">Login</a>
+                <a href="/register" class="btn btn-sm btn-header btn-header-user xs-hide"><i
+                            class="far fa-user mr-2"></i>Create an Account</a>
+                <a href="/login" class="btn btn-sm btn-header btn-header-user xs-show"><i class="far fa-user mr-2"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End: Header-->
+<!--Begin: Main content-->
+<div id="mega_main" class="page-404 pb-5">
+    <div class="container">
+        <div class="content-404 text-center">
+            <div class="img-404"><img src="/images/404-error.svg" title="404" alt="404"></div>
+            <h1 class="h-title">404</h1>
+            <p class="description mb-4">Unfortunately, this page does not exist. Please check your URL or return to the Home Page.</p>
+            <p><a href="/" class="btn btn-lg btn-radius btn-primary" title="">Back to Homepage</a></p>
+        </div>
+    </div>
+</div>
+<!--End: Main content-->
+<!--Begin: Footer-->
+<footer>
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Megacloud</li>
+                    <li><a href="/about" title="">About us</a></li>
+                    <li><a href="/faq" title="">FAQ</a></li>
+                    <li><a href="/contact" title="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Policy</li>
+                    <li><a href="/terms" title="">Terms and Conditions</a></li>
+                    <li><a href="/copyright" title="">Copyright Policy</a></li>
+                    <li><a href="/dmca" title="">Report Abuse</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Services</li>
+                    <li><a href="#" title="">Earn money</a></li>
+                    <li><a href="/api" title="">API</a></li>
+                    <li><a href="#" title="">Speedtest</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Connect</li>
+                    <li><a href="#" title="">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-right">
+                <a href="/" class="footer-logo">
+                    <img src="/images/logo.png" title="Megacloud.co" alt="Megacloud.co">
+                </a>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <span class="copyright-text">Megacloud © 2023 / All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End: Footer-->
+<div class="modal fade modal-login" id="megalogin" tabindex="-1" role="dialog" aria-labelledby="megalogin" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-close" data-dismiss="modal" ari-label="megalogin"><span><i class="fas fa-times"></i></span></div>
+            <div class="modal-form">
+                <h3 class="vc-title">Sign In</h3>
+                <div class="mg-avatar"><img src="/images/avatar.png"></div>
+                <form class="sp-form mg-form ajax-form" method="POST" action="/ajax/auth/login">
+                    <div class="alert alert-danger error-msg" style="display: none"></div>
+                    <div class="form-group">
+                        <label for="name-input"><i class="far fa-user mr-2 vcf-icon"></i>Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email Address" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-input"><i class="fas fa-key mr-2 vcf-icon"></i>Password</label>
+                        <input type="password" class="form-control" placeholder="Your password" name="password" required>
+                    </div>
+                    <div class="form-check form-check-inline mt-3" style="line-height: 2em;">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="checkbox25" value="1" name="remember">
+                            <label class="custom-control-label" for="checkbox25">Remember me</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-button">
+                        <button type="submit" class="btn btn-block btn-lg btn-shadow btn-primary mt-3">Sign In <i class="fas fa-arrow-circle-right ml-2 float-right mt-1"></i></button>
+                    </div>
+                </form>
+                <div class="mg-bottom">
+                    <div class="vcb-block vcb-forgot float-left">
+                        <a href="/forgot-password" title=""><i class="fas fa-question-circle mr-2"></i>Forgot password?</a>
+                    </div>
+                    <div class="vcb-block vcb-forgot float-right">
+                        <a href="/register" title=""><i class="fas fa-user-plus mr-2"></i>Create an Account</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/js/app.min.js"></script>
+</body>
+</html>
+
+
+================================================================================
+Provider fetch: https://megacloud.club/anime-details/road-of-naruto-18220?ref=search
+================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Megacloud.co</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" />
+</head>
+<body>
+<!--Begin: Header-->
+<header id="mega_header">
+    <div class="container">
+        <div class="header-container">
+            <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+            <a href="/" id="logo" title="Megacloud.co"><img src="/images/logo.png" title="Megacloud.co"
+                                                            alt="Megacloud.co"></a>
+            <div id="mega_menu">
+                <ul class="nav">
+                    <li class="nav-item active"><a href="/" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="/about" title="About">About</a></li>
+                    <li class="nav-item"><a href="/affiliate" title="Earn money">Earn money</a></li>
+                    <li class="nav-item"><a href="/api" title="API">API</a></li>
+                    <li class="nav-item"><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mega_user">
+                <a id="toggle-login" data-toggle="modal" data-target="#megalogin"
+                   class="btn btn-sm btn-header btn-login xs-hide">Login</a>
+                <a href="/register" class="btn btn-sm btn-header btn-header-user xs-hide"><i
+                            class="far fa-user mr-2"></i>Create an Account</a>
+                <a href="/login" class="btn btn-sm btn-header btn-header-user xs-show"><i class="far fa-user mr-2"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End: Header-->
+<!--Begin: Main content-->
+<div id="mega_main" class="page-404 pb-5">
+    <div class="container">
+        <div class="content-404 text-center">
+            <div class="img-404"><img src="/images/404-error.svg" title="404" alt="404"></div>
+            <h1 class="h-title">404</h1>
+            <p class="description mb-4">Unfortunately, this page does not exist. Please check your URL or return to the Home Page.</p>
+            <p><a href="/" class="btn btn-lg btn-radius btn-primary" title="">Back to Homepage</a></p>
+        </div>
+    </div>
+</div>
+<!--End: Main content-->
+<!--Begin: Footer-->
+<footer>
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Megacloud</li>
+                    <li><a href="/about" title="">About us</a></li>
+                    <li><a href="/faq" title="">FAQ</a></li>
+                    <li><a href="/contact" title="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Policy</li>
+                    <li><a href="/terms" title="">Terms and Conditions</a></li>
+                    <li><a href="/copyright" title="">Copyright Policy</a></li>
+                    <li><a href="/dmca" title="">Report Abuse</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Services</li>
+                    <li><a href="#" title="">Earn money</a></li>
+                    <li><a href="/api" title="">API</a></li>
+                    <li><a href="#" title="">Speedtest</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Connect</li>
+                    <li><a href="#" title="">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-right">
+                <a href="/" class="footer-logo">
+                    <img src="/images/logo.png" title="Megacloud.co" alt="Megacloud.co">
+                </a>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <span class="copyright-text">Megacloud © 2023 / All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End: Footer-->
+<div class="modal fade modal-login" id="megalogin" tabindex="-1" role="dialog" aria-labelledby="megalogin" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-close" data-dismiss="modal" ari-label="megalogin"><span><i class="fas fa-times"></i></span></div>
+            <div class="modal-form">
+                <h3 class="vc-title">Sign In</h3>
+                <div class="mg-avatar"><img src="/images/avatar.png"></div>
+                <form class="sp-form mg-form ajax-form" method="POST" action="/ajax/auth/login">
+                    <div class="alert alert-danger error-msg" style="display: none"></div>
+                    <div class="form-group">
+                        <label for="name-input"><i class="far fa-user mr-2 vcf-icon"></i>Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email Address" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-input"><i class="fas fa-key mr-2 vcf-icon"></i>Password</label>
+                        <input type="password" class="form-control" placeholder="Your password" name="password" required>
+                    </div>
+                    <div class="form-check form-check-inline mt-3" style="line-height: 2em;">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="checkbox25" value="1" name="remember">
+                            <label class="custom-control-label" for="checkbox25">Remember me</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-button">
+                        <button type="submit" class="btn btn-block btn-lg btn-shadow btn-primary mt-3">Sign In <i class="fas fa-arrow-circle-right ml-2 float-right mt-1"></i></button>
+                    </div>
+                </form>
+                <div class="mg-bottom">
+                    <div class="vcb-block vcb-forgot float-left">
+                        <a href="/forgot-password" title=""><i class="fas fa-question-circle mr-2"></i>Forgot password?</a>
+                    </div>
+                    <div class="vcb-block vcb-forgot float-right">
+                        <a href="/register" title=""><i class="fas fa-user-plus mr-2"></i>Create an Account</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/js/app.min.js"></script>
+</body>
+</html>
+
+
+================================================================================
+Provider fetch: https://megacloud.club/road-of-naruto-18220?ref=search
+================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Megacloud.co</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="index,follow" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" />
+</head>
+<body>
+<!--Begin: Header-->
+<header id="mega_header">
+    <div class="container">
+        <div class="header-container">
+            <div class="mobile-menu"><i class="fas fa-bars"></i></div>
+            <a href="/" id="logo" title="Megacloud.co"><img src="/images/logo.png" title="Megacloud.co"
+                                                            alt="Megacloud.co"></a>
+            <div id="mega_menu">
+                <ul class="nav">
+                    <li class="nav-item active"><a href="/" title="Home">Home</a></li>
+                    <li class="nav-item"><a href="/about" title="About">About</a></li>
+                    <li class="nav-item"><a href="/affiliate" title="Earn money">Earn money</a></li>
+                    <li class="nav-item"><a href="/api" title="API">API</a></li>
+                    <li class="nav-item"><a href="/contact" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="mega_user">
+                <a id="toggle-login" data-toggle="modal" data-target="#megalogin"
+                   class="btn btn-sm btn-header btn-login xs-hide">Login</a>
+                <a href="/register" class="btn btn-sm btn-header btn-header-user xs-hide"><i
+                            class="far fa-user mr-2"></i>Create an Account</a>
+                <a href="/login" class="btn btn-sm btn-header btn-header-user xs-show"><i class="far fa-user mr-2"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End: Header-->
+<!--Begin: Main content-->
+<div id="mega_main" class="page-404 pb-5">
+    <div class="container">
+        <div class="content-404 text-center">
+            <div class="img-404"><img src="/images/404-error.svg" title="404" alt="404"></div>
+            <h1 class="h-title">404</h1>
+            <p class="description mb-4">Unfortunately, this page does not exist. Please check your URL or return to the Home Page.</p>
+            <p><a href="/" class="btn btn-lg btn-radius btn-primary" title="">Back to Homepage</a></p>
+        </div>
+    </div>
+</div>
+<!--End: Main content-->
+<!--Begin: Footer-->
+<footer>
+    <div class="container">
+        <div class="row footer-links">
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Megacloud</li>
+                    <li><a href="/about" title="">About us</a></li>
+                    <li><a href="/faq" title="">FAQ</a></li>
+                    <li><a href="/contact" title="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Policy</li>
+                    <li><a href="/terms" title="">Terms and Conditions</a></li>
+                    <li><a href="/copyright" title="">Copyright Policy</a></li>
+                    <li><a href="/dmca" title="">Report Abuse</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Services</li>
+                    <li><a href="#" title="">Earn money</a></li>
+                    <li><a href="/api" title="">API</a></li>
+                    <li><a href="#" title="">Speedtest</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+                <ul class="footer-link">
+                    <li class="head">Connect</li>
+                    <li><a href="#" title="">Status</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 text-right">
+                <a href="/" class="footer-logo">
+                    <img src="/images/logo.png" title="Megacloud.co" alt="Megacloud.co">
+                </a>
+            </div>
+        </div>
+        <div class="row copyright">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <span class="copyright-text">Megacloud © 2023 / All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End: Footer-->
+<div class="modal fade modal-login" id="megalogin" tabindex="-1" role="dialog" aria-labelledby="megalogin" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-close" data-dismiss="modal" ari-label="megalogin"><span><i class="fas fa-times"></i></span></div>
+            <div class="modal-form">
+                <h3 class="vc-title">Sign In</h3>
+                <div class="mg-avatar"><img src="/images/avatar.png"></div>
+                <form class="sp-form mg-form ajax-form" method="POST" action="/ajax/auth/login">
+                    <div class="alert alert-danger error-msg" style="display: none"></div>
+                    <div class="form-group">
+                        <label for="name-input"><i class="far fa-user mr-2 vcf-icon"></i>Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email Address" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-input"><i class="fas fa-key mr-2 vcf-icon"></i>Password</label>
+                        <input type="password" class="form-control" placeholder="Your password" name="password" required>
+                    </div>
+                    <div class="form-check form-check-inline mt-3" style="line-height: 2em;">
+                        <div class="custom-control custom-checkbox">
+                            <input class="custom-control-input" type="checkbox" id="checkbox25" value="1" name="remember">
+                            <label class="custom-control-label" for="checkbox25">Remember me</label>
+                        </div>
+                    </div>
+                    <div class="form-group form-group-button">
+                        <button type="submit" class="btn btn-block btn-lg btn-shadow btn-primary mt-3">Sign In <i class="fas fa-arrow-circle-right ml-2 float-right mt-1"></i></button>
+                    </div>
+                </form>
+                <div class="mg-bottom">
+                    <div class="vcb-block vcb-forgot float-left">
+                        <a href="/forgot-password" title=""><i class="fas fa-question-circle mr-2"></i>Forgot password?</a>
+                    </div>
+                    <div class="vcb-block vcb-forgot float-right">
+                        <a href="/register" title=""><i class="fas fa-user-plus mr-2"></i>Create an Account</a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/js/app.min.js"></script>
+</body>
+</html>
+
+
+================================================================================
+Extracted episode_id (attempt)
+================================================================================
+None
+
+
+================================================================================
+No episode_id
+================================================================================
+No episode_id extracted; cannot test servers/stream automatically.
+
