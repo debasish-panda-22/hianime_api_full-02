@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { animeApi, HomepageData, Anime, SearchResponse } from '@/lib/api';
+import { animeApi, HomepageData, Anime, SearchResponse, AnimeDetails, Episode } from '@/lib/api';
 
 export const useHomepageData = () => {
   const [data, setData] = useState<HomepageData | null>(null);
@@ -132,4 +132,78 @@ export const useSuggestions = (keyword: string) => {
   }, [keyword]);
 
   return { suggestions, loading };
+};
+
+export const useAnimeDetails = (animeId: string) => {
+  const [data, setData] = useState<AnimeDetails | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!animeId) {
+      setError('Anime ID is required');
+      setLoading(false);
+      return;
+    }
+
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await animeApi.getAnimeDetails(animeId);
+        
+        if (response.success && response.data) {
+          setData(response.data);
+        } else {
+          setError(response.message || 'Failed to fetch anime details');
+        }
+      } catch (err) {
+        setError('An unexpected error occurred');
+        console.error('Anime details error:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [animeId]);
+
+  return { data, loading, error };
+};
+
+export const useEpisodes = (animeId: string) => {
+  const [data, setData] = useState<Episode[] | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!animeId) {
+      setError('Anime ID is required');
+      setLoading(false);
+      return;
+    }
+
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const response = await animeApi.getEpisodes(animeId);
+        
+        if (response.success && response.data) {
+          setData(response.data);
+        } else {
+          setError(response.message || 'Failed to fetch episodes');
+        }
+      } catch (err) {
+        setError('An unexpected error occurred');
+        console.error('Episodes error:', err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [animeId]);
+
+  return { data, loading, error };
 };

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { Search, Play, Plus, Star, Clock, TrendingUp, Calendar, Loader2, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -14,12 +15,17 @@ import { Anime } from "@/lib/api";
 
 // Anime card component
 const AnimeCard = ({ anime }: { anime: Anime }) => {
+  const router = useRouter();
   const episodeCount = anime.episodes?.eps || 0;
   const hasSub = anime.episodes?.sub !== null;
   const hasDub = anime.episodes?.dub !== null;
 
+  const handleClick = () => {
+    router.push(`/anime/${anime.id}`);
+  };
+
   return (
-    <Card className="group cursor-pointer hover:shadow-lg transition-all duration-200">
+    <Card className="group cursor-pointer hover:shadow-lg transition-all duration-200" onClick={handleClick}>
       <CardContent className="p-0">
         <div className="aspect-[2/3] bg-gradient-to-br from-primary/20 to-primary/5 rounded-t-lg flex items-center justify-center relative overflow-hidden">
           {anime.poster ? (
@@ -61,21 +67,37 @@ const AnimeCard = ({ anime }: { anime: Anime }) => {
 
 // Search component with suggestions
 const SearchBar = () => {
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
   const [showSuggestions, setShowSuggestions] = useState(false);
   const { suggestions, loading } = useSuggestions(searchQuery);
 
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/search?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setSearchQuery(suggestion);
+    setShowSuggestions(false);
+    router.push(`/search?q=${encodeURIComponent(suggestion)}`);
+  };
+
   return (
     <div className="relative">
-      <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
-      <Input
-        placeholder="Search anime..."
-        value={searchQuery}
-        onChange={(e) => setSearchQuery(e.target.value)}
-        onFocus={() => setShowSuggestions(true)}
-        onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
-        className="w-64 pl-10"
-      />
+      <form onSubmit={handleSearch}>
+        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+        <Input
+          placeholder="Search anime..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          onFocus={() => setShowSuggestions(true)}
+          onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+          className="w-64 pl-10"
+        />
+      </form>
       {showSuggestions && suggestions.length > 0 && (
         <div className="absolute top-full left-0 right-0 mt-1 bg-background border rounded-md shadow-lg z-50 max-h-60 overflow-y-auto">
           {loading ? (
@@ -87,10 +109,7 @@ const SearchBar = () => {
               <div
                 key={index}
                 className="px-3 py-2 hover:bg-muted cursor-pointer text-sm"
-                onMouseDown={() => {
-                  setSearchQuery(suggestion);
-                  setShowSuggestions(false);
-                }}
+                onMouseDown={() => handleSuggestionClick(suggestion)}
               >
                 {suggestion}
               </div>
@@ -104,6 +123,7 @@ const SearchBar = () => {
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
+  const router = useRouter();
   const { data: homepageData, loading, error } = useHomepageData();
   const { data: searchData, loading: searchLoading } = useSearchAnime("");
   const { data: popularData } = useAnimeList("most-popular");
@@ -129,6 +149,10 @@ export default function Home() {
 
   // Get featured anime from spotlight or first popular anime
   const featuredAnime = homepageData?.spotlight?.[0] || popularData?.response?.[0];
+
+  const handleWatchNow = (animeId: string) => {
+    router.push(`/anime/${animeId}`);
+  };
 
   if (loading) {
     return (
@@ -161,10 +185,10 @@ export default function Home() {
             <div className="flex items-center space-x-4">
               <h1 className="text-2xl font-bold text-primary">HiAnime</h1>
               <div className="hidden md:flex space-x-6">
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Home</a>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Browse</a>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Schedule</a>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Popular</a>
+                <a href="/" className="text-muted-foreground hover:text-foreground transition-colors">Home</a>
+                <a href="/browse" className="text-muted-foreground hover:text-foreground transition-colors">Browse</a>
+                <a href="/schedule" className="text-muted-foreground hover:text-foreground transition-colors">Schedule</a>
+                <a href="/popular" className="text-muted-foreground hover:text-foreground transition-colors">Popular</a>
               </div>
             </div>
             
@@ -208,7 +232,7 @@ export default function Home() {
                   <Badge variant="outline">{featuredAnime.type}</Badge>
                 </div>
                 <div className="flex space-x-4">
-                  <Button size="lg" className="bg-primary hover:bg-primary/90">
+                  <Button size="lg" className="bg-primary hover:bg-primary/90" onClick={() => featuredAnime && handleWatchNow(featuredAnime.id)}>
                     <Play className="mr-2 h-4 w-4" />
                     Watch Now
                   </Button>
@@ -288,7 +312,7 @@ export default function Home() {
                               <span>{anime.episodes?.eps || 0} episodes</span>
                             </div>
                           </div>
-                          <Button size="sm" variant="outline">
+                          <Button size="sm" variant="outline" onClick={() => handleWatchNow(anime.id)}>
                             <Play className="h-4 w-4" />
                           </Button>
                         </div>
@@ -374,7 +398,7 @@ export default function Home() {
                           <p className="text-sm text-muted-foreground">{episode.episode}</p>
                           <p className="text-xs text-muted-foreground">{episode.time}</p>
                         </div>
-                        <Button size="sm">
+                        <Button size="sm" onClick={() => handleWatchNow(episode.id)}>
                           <Play className="h-4 w-4" />
                         </Button>
                       </div>
@@ -400,28 +424,28 @@ export default function Home() {
             <div>
               <h4 className="font-medium mb-4">Browse</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Popular Anime</a></li>
-                <li><a href="#" className="hover:text-foreground">New Releases</a></li>
-                <li><a href="#" className="hover:text-foreground">Schedule</a></li>
-                <li><a href="#" className="hover:text-foreground">Genres</a></li>
+                <li><a href="/popular" className="hover:text-foreground">Popular Anime</a></li>
+                <li><a href="/latest" className="hover:text-foreground">New Releases</a></li>
+                <li><a href="/schedule" className="hover:text-foreground">Schedule</a></li>
+                <li><a href="/genres" className="hover:text-foreground">Genres</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-medium mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-foreground">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-foreground">DMCA</a></li>
-                <li><a href="#" className="hover:text-foreground">Contact</a></li>
+                <li><a href="/terms" className="hover:text-foreground">Terms of Service</a></li>
+                <li><a href="/privacy" className="hover:text-foreground">Privacy Policy</a></li>
+                <li><a href="/dmca" className="hover:text-foreground">DMCA</a></li>
+                <li><a href="/contact" className="hover:text-foreground">Contact</a></li>
               </ul>
             </div>
             <div>
               <h4 className="font-medium mb-4">Connect</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li><a href="#" className="hover:text-foreground">Discord</a></li>
-                <li><a href="#" className="hover:text-foreground">Twitter</a></li>
-                <li><a href="#" className="hover:text-foreground">Reddit</a></li>
-                <li><a href="#" className="hover:text-foreground">GitHub</a></li>
+                <li><a href="https://discord.gg/hianime" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Discord</a></li>
+                <li><a href="https://twitter.com/hianime" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Twitter</a></li>
+                <li><a href="https://reddit.com/r/hianime" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">Reddit</a></li>
+                <li><a href="https://github.com/hianime" target="_blank" rel="noopener noreferrer" className="hover:text-foreground">GitHub</a></li>
               </ul>
             </div>
           </div>

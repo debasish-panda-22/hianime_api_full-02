@@ -15,9 +15,9 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { useAnimeDetails, useEpisodes } from "@/hooks/useAnimeData";
 import { AnimeDetails, Episode } from "@/lib/api";
 
-const EpisodeCard = ({ episode, animeId }: { episode: Episode; animeId: string }) => {
+const EpisodeCard = ({ episode, animeId, onEpisodeClick }: { episode: Episode; animeId: string; onEpisodeClick: (episodeId: string) => void }) => {
   return (
-    <Card className="hover:shadow-md transition-shadow cursor-pointer">
+    <Card className="hover:shadow-md transition-shadow cursor-pointer" onClick={() => onEpisodeClick(episode.id)}>
       <CardContent className="p-4">
         <div className="flex items-center space-x-4">
           <div className="flex-shrink-0">
@@ -54,6 +54,17 @@ export default function AnimeDetailPage() {
   const { data: episodes, loading: episodesLoading } = useEpisodes(animeId);
   
   const [selectedTab, setSelectedTab] = useState("overview");
+
+  const handleWatchNow = () => {
+    if (episodes && episodes.length > 0) {
+      const firstEpisode = episodes[0];
+      router.push(`/watch/${animeId}/${firstEpisode.id}`);
+    }
+  };
+
+  const handleEpisodeClick = (episodeId: string) => {
+    router.push(`/watch/${animeId}/${episodeId}`);
+  };
 
   if (animeLoading) {
     return (
@@ -118,7 +129,7 @@ export default function AnimeDetailPage() {
                 
                 {/* Action Buttons */}
                 <div className="flex space-x-2 mt-4">
-                  <Button size="lg" className="flex-1">
+                  <Button size="lg" className="flex-1" onClick={handleWatchNow}>
                     <Play className="mr-2 h-4 w-4" />
                     Watch Now
                   </Button>
@@ -306,6 +317,7 @@ export default function AnimeDetailPage() {
                             key={episode.id} 
                             episode={episode} 
                             animeId={animeId}
+                            onEpisodeClick={handleEpisodeClick}
                           />
                         ))}
                       </div>

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useState, useEffect, Suspense } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import { Search, Loader2, Grid, List } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,12 +12,17 @@ import { useSearchAnime, useSuggestions } from "@/hooks/useAnimeData";
 import { Anime } from "@/lib/api";
 
 const AnimeCard = ({ anime }: { anime: Anime }) => {
+  const router = useRouter();
   const episodeCount = anime.episodes?.eps || 0;
   const hasSub = anime.episodes?.sub !== null;
   const hasDub = anime.episodes?.dub !== null;
 
+  const handleClick = () => {
+    router.push(`/anime/${anime.id}`);
+  };
+
   return (
-    <Card className="group cursor-pointer hover:shadow-lg transition-all duration-200">
+    <Card className="group cursor-pointer hover:shadow-lg transition-all duration-200" onClick={handleClick}>
       <CardContent className="p-0">
         <div className="aspect-[2/3] bg-gradient-to-br from-primary/20 to-primary/5 rounded-t-lg flex items-center justify-center relative overflow-hidden">
           {anime.poster ? (
@@ -58,12 +63,17 @@ const AnimeCard = ({ anime }: { anime: Anime }) => {
 };
 
 const AnimeListItem = ({ anime }: { anime: Anime }) => {
+  const router = useRouter();
   const episodeCount = anime.episodes?.eps || 0;
   const hasSub = anime.episodes?.sub !== null;
   const hasDub = anime.episodes?.dub !== null;
 
+  const handleClick = () => {
+    router.push(`/anime/${anime.id}`);
+  };
+
   return (
-    <Card className="hover:shadow-md transition-shadow">
+    <Card className="hover:shadow-md transition-shadow cursor-pointer" onClick={handleClick}>
       <CardContent className="p-4">
         <div className="flex space-x-4">
           <div className="flex-shrink-0">
@@ -115,6 +125,7 @@ const AnimeListItem = ({ anime }: { anime: Anime }) => {
 
 export default function SearchPage() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const initialQuery = searchParams.get('q') || '';
   
   const [searchQuery, setSearchQuery] = useState(initialQuery);
@@ -126,8 +137,28 @@ export default function SearchPage() {
   const { data: searchData, loading, error } = useSearchAnime(searchQuery, currentPage);
   const { suggestions, loading: suggestionsLoading } = useSuggestions(searchQuery);
 
+  // Update URL when search query or page changes
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (searchQuery.trim()) {
+      params.set('q', searchQuery.trim());
+    }
+    if (currentPage > 1) {
+      params.set('page', currentPage.toString());
+    }
+    
+    const newUrl = `/search${params.toString() ? `?${params.toString()}` : ''}`;
+    router.replace(newUrl, { scroll: false });
+  }, [searchQuery, currentPage, router]);
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
+    setCurrentPage(1);
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setSearchQuery(suggestion);
+    setShowSuggestions(false);
     setCurrentPage(1);
   };
 
@@ -163,10 +194,7 @@ export default function SearchPage() {
                       <div
                         key={index}
                         className="px-3 py-2 hover:bg-muted cursor-pointer text-sm"
-                        onMouseDown={() => {
-                          setSearchQuery(suggestion);
-                          setShowSuggestions(false);
-                        }}
+                        onMouseDown={() => handleSuggestionClick(suggestion)}
                       >
                         {suggestion}
                       </div>
