@@ -1,0 +1,20 @@
+# Homepage
+curl "http://localhost:8000/api/v1/home/"
+
+# Genres
+curl "http://localhost:8000/api/v1/genres/"
+
+# Episodes (now works!)
+curl "http://localhost:8000/api/v1/episodes/one-piece-100/"
+
+# Streaming (now works!)
+curl "http://localhost:8000/api/v1/stream/?id=one-piece-100::ep=1000&server=HD-1&type=sub"
+
+# Anime Details
+curl "http://localhost:8000/api/v1/anime/attack-on-titan-100/"
+
+# Search
+curl "http://localhost:8000/api/v1/search/?keyword=attack"
+
+# Suggestions
+curl "http://localhost:8000/api/v1/search/suggestion/?keyword=attack"

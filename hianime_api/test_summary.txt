@@ -1,0 +1,316 @@
+Compact HiAnime API debug summary
+BASE_URL: http://localhost:8000/api/v1
+Timestamp: 2025-09-10 14:42:26
+======================================================================
+Root /
+======================================================================
+Status: 200, Response bytes: 2515
+JSON preview (first ~2000 chars):
+{
+  "title": "HiAnime API",
+  "version": "1.0.0",
+  "description": "A RESTful API that utilizes web scraping to fetch anime content from hianime.bz",
+  "base_url": "/api/v1",
+  "endpoints": [
+    {
+      "path": "/home",
+      "method": "GET",
+      "description": "Get homepage data including spotlight, trending, top airing, and other sections"
+    },
+    {
+      "path": "/anime/{anime_id}",
+      "method": "GET",
+      "description": "Get detailed information about a specific anime"
+    },
+    {
+      "path": "/animes/{query}/{category?}",
+      "method": "GET",
+      "description": "Get anime lists by category and query type"
+    },
+    {
+      "path": "/search",
+      "method": "GET",
+      "description": "Search for anime by keyword",
+      "parameters": [
+        {
+          "name": "keyword",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "page",
+          "type": "integer",
+          "required": false,
+          "default": 1
+        }
+      ]
+    },
+    {
+      "path": "/suggestion",
+      "method": "GET",
+      "description": "Get search suggestions for a keyword",
+      "parameters": [
+        {
+          "name": "keyword",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "path": "/episodes/{anime_id}",
+      "method": "GET",
+      "description": "Get list of episodes for a specific anime"
+    },
+    {
+      "path": "/servers",
+      "method": "GET",
+      "description": "Get available servers for a specific episode",
+      "parameters": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "path": "/stream",
+      "method": "GET",
+      "description": "Get streaming links for a specific episode from a specific server",
+      "parameters": [
+        {
+          "name": "id",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "server",
+          "type": "
+
+...TRUNCATED...
+
+Pattern checks (presence = True/False):
+  \.ssl-item\.ep-item : False
+  #syncData : False
+  \.server-item : False
+  data-id : False
+  data-type : False
+  iframe : False
+  m3u8 : False
+  megaplay : False
+  megacloud : False
+  tick-sub : False
+  tick-dub : False
+======================================================================
+Homepage /home/
+======================================================================
+Status: 200, Response bytes: 25231
+JSON preview (first ~2000 chars):
+{
+  "success": true,
+  "data": {
+    "spotlight": [
+      {
+        "title": "Sakamoto Days Part 2",
+        "alternativeTitle": "Sakamoto Days Part 2",
+        "id": "sakamoto-days-part-2-19787",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/1366x768/100/200f6d513c6a0ea46258ef0b2d3d411a.jpg",
+        "rank": 1,
+        "type": "TV",
+        "quality": "HD",
+        "duration": "24m",
+        "aired": "Jul 15, 2025",
+        "synopsis": "When Sakamoto meets Aoi, the convenience store clerk, it’s love at first sight — and just like that, he retires.\r\n\r\nSakamoto gets married, has a daughter, opens a mom-and-pop store in a quiet town, and completely transforms … into a plus-size man. To ensure a peaceful life with his beloved family, the legendary ex–hit man bands together with comrades to face off against the looming threat of assassins.",
+        "episodes": {
+          "sub": 10,
+          "dub": 10,
+          "eps": 11
+        }
+      },
+      {
+        "title": "One Piece",
+        "alternativeTitle": "One Piece",
+        "id": "one-piece-100",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/1366x768/100/db8603d2f4fa78e1c42f6cf829030a18.jpg",
+        "rank": 2,
+        "type": "TV",
+        "quality": "HD",
+        "duration": "24m",
+        "aired": "Oct 20, 1999",
+        "synopsis": "Gold Roger was known as the \"Pirate King,\" the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.\r\n\r\nEnter Monkey Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the p
+
+...TRUNCATED...
+
+Pattern checks (presence = True/False):
+  \.ssl-item\.ep-item : False
+  #syncData : False
+  \.server-item : False
+  data-id : False
+  data-type : False
+  iframe : False
+  m3u8 : False
+  megaplay : False
+  megacloud : False
+  tick-sub : False
+  tick-dub : False
+======================================================================
+Search (naruto)
+======================================================================
+Status: 200, Response bytes: 9277
+JSON preview (first ~2000 chars):
+{
+  "success": true,
+  "data": {
+    "pageInfo": {
+      "totalPages": 1,
+      "currentPage": 1,
+      "hasNextPage": false
+    },
+    "response": [
+      {
+        "title": "Road of Naruto",
+        "alternativeTitle": "Road of Naruto",
+        "id": "road-of-naruto-18220?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg",
+        "type": "ONA",
+        "duration": "9m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Naruto: Find the Crimson Four-leaf Clover!",
+        "alternativeTitle": "Naruto: Akaki Yotsuba no Clover wo Sagase",
+        "id": "naruto-find-the-crimson-four-leaf-clover-5694?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/da3a3d57e29aa0dba87cd6e1596b78e9.jpg",
+        "type": "Special",
+        "duration": "17m",
+        "episodes": {
+          "sub": 1,
+          "dub": null,
+          "eps": 1
+        }
+      },
+      {
+        "title": "Boruto: Naruto Next Generations",
+        "alternativeTitle": "Boruto: Naruto Next Generations",
+        "id": "boruto-naruto-next-generations-8143?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/32c83e2ad4a43229996356840db3982c.jpg",
+        "type": "TV",
+        "duration": "23m",
+        "episodes": {
+          "sub": 293,
+          "dub": 293,
+          "eps": 293
+        }
+      },
+      {
+        "title": "Naruto the Movie 3: Guardians of the Crescent Moon Kingdom",
+        "alternativeTitle": "Naruto Movie 3: Dai Koufun! Mikazuki Jima no Animaru Panikku Dattebayo!",
+        "id": "naruto-the-movie-3-guardians-of-the-crescent-moon-kingdom-4005?ref=search",
+        "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/73d003618cd260df44e93a5baf9acb56.jpg",
+        "type": "Movie",
+        "duration": "94m",
+        "episodes": {
+          "sub": 1,
+          "dub": 1,
+        
+
+...TRUNCATED...
+
+Pattern checks (presence = True/False):
+  \.ssl-item\.ep-item : False
+  #syncData : False
+  \.server-item : False
+  data-id : False
+  data-type : False
+  iframe : False
+  m3u8 : False
+  megaplay : False
+  megacloud : False
+  tick-sub : False
+  tick-dub : False
+Auto-extracted anime_id (if any): road-of-naruto-18220?ref=search
+======================================================================
+Anime details /anime/road-of-naruto-18220?ref=search/
+======================================================================
+Status: 200, Response bytes: 681
+JSON preview (first ~2000 chars):
+{
+  "success": true,
+  "data": {
+    "title": null,
+    "alternativeTitle": null,
+    "japanese": null,
+    "id": "18220",
+    "poster": "https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd414879634ea83ad2c4fc1c33e8ac43.jpg",
+    "rating": null,
+    "type": "PG-13HD1ONA9m",
+    "episodes": {
+      "sub": null,
+      "dub": null,
+      "eps": null
+    },
+    "synopsis": "In celebration of 20 years of , Studio Pierrot posted an anniversary PV on their YouTube channel. The PV is a compilation of newly reworked scenes from containing new animation.",
+    "synonyms": [],
+    "aired": {
+      "from": null,
+      "to": null
+    },
+    "premiered": null,
+    "duration": null,
+    "status": null,
+    "MAL_score": null,
+    "genres": [],
+    "studios": null,
+    "producers": [],
+    "moreSeasons": [],
+    "related": [],
+    "mostPopular": [],
+    "recommended": []
+  }
+}
+Pattern checks (presence = True/False):
+  \.ssl-item\.ep-item : False
+  #syncData : False
+  \.server-item : False
+  data-id : False
+  data-type : False
+  iframe : False
+  m3u8 : False
+  megaplay : False
+  megacloud : False
+  tick-sub : False
+  tick-dub : False
+======================================================================
+Episodes /episodes/road-of-naruto-18220?ref=search/
+======================================================================
+Status: 200, Response bytes: 26
+JSON preview (first ~2000 chars):
+{
+  "success": true,
+  "data": []
+}
+Pattern checks (presence = True/False):
+  \.ssl-item\.ep-item : False
+  #syncData : False
+  \.server-item : False
+  data-id : False
+  data-type : False
+  iframe : False
+  m3u8 : False
+  megaplay : False
+  megacloud : False
+  tick-sub : False
+  tick-dub : False
+Saved HTML snippet to raw_snippet.html (first ~2000 chars).
+No usable #syncData JSON found in episodes HTML (or could not parse).
+Episodes JSON returned but not a list; type: <class 'dict'>
+Auto-extracted episode_id (if any): None
+No episode_id available; cannot test servers/stream automatically.
+
+Summary complete. Please attach this file for debugging: test_summary.txt
+If you want, re-run with an explicit anime_id by setting BASE_URL env or editing script.

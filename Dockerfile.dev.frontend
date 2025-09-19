@@ -1,0 +1,22 @@
+# anime-api/anime-api/hianime_api_full/Dockerfile.dev.frontend
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package files first to install deps (use package-lock if present)
+COPY package*.json ./
+
+# Install all dependencies (including dev dependencies)
+RUN npm ci
+
+# Copy source code (needed before running TypeScript build)
+COPY . .
+
+# Build server-side JS for custom server (tsconfig.server.json must be present)
+RUN npm run build:server
+
+# Expose port
+EXPOSE 3000
+
+# Development command
+CMD ["npm", "run", "dev"]
